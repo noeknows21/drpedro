@@ -5,3 +5,70 @@
 * {
   font-family:"Courier New", Courier, monospace !important;
 }
+
+/* larger screens */
+@media (min-width: 600px) {
+  #drpedro {
+    border-radius: 7px;
+    float:left;
+    height:250px;
+    width:180px;
+  }
+
+  #main-heading {
+    text-align: center;
+  }
+
+  #intro {
+    width: 1000px;
+    position: relative;
+    left:50px;
+    top:45px;
+  }
+
+  #part1 {
+    background-color: lightgreen;
+    height: 250px;
+  }
+
+  #part2 {
+    background-color: lightgreen;
+    height:470px;
+    clear:both;
+    position: relative;
+    top: 40px;
+  }
+
+  #pain-list-intro{
+    position: relative;
+    right: 18px;
+    // text-align: center;
+  }
+
+  #pain-list {
+    float:right;
+    position: relative;
+    top: 20px;
+  }
+
+  #pics-div {
+    float:right;
+    clear:both;
+  }
+
+
+  .pain-pics {
+    position: relative;
+    height:110px;
+    width:110px;
+  }
+
+  #part3 {
+    clear:both;
+    position: relative;
+    top:80px;
+    height:200px;
+    background-color: lightgreen;
+    text-align: center;
+  }
+}
