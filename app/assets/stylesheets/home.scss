@@ -6,69 +6,139 @@
   font-family:"Courier New", Courier, monospace !important;
 }
 
+/* portrait */
+@media (orientation: portrait) {
+  ul, figure, li, p:not(#portrait-notice), h2,h4, img {
+    display: none;
+  }
+}
+
+
 /* larger screens */
-@media (min-width: 600px) {
+@media (min-width: 600px) and (orientation: landscape) {
+
+  #portrait-notice {
+    display:none;
+  }
+
+  h2 {
+    font-size: 2.9vw;
+  }
+
+  p, li {
+    font-size: 1.4vw;
+  }
+
+  /* picture */
   #drpedro {
-    border-radius: 7px;
+    border-radius: 5px;
     float:left;
-    height:250px;
-    width:180px;
+    height: 19.25vw;
+    width: 14.8vw;
   }
 
   #main-heading {
     text-align: center;
   }
 
+  /* intro paragraph */
   #intro {
-    width: 1000px;
+    width: 85vw;
     position: relative;
-    left:50px;
-    top:45px;
+    left: 4.25vw;
+    top: 1.5vw;
   }
 
+  /*div for drpedro pic and intro paragraph */
   #part1 {
-    background-color: lightgreen;
-    height: 250px;
+    height:0px;
+    opacity: 0;
+    border-bottom: 5px solid black;
+    position: relative;
+    top: 1vw;
+  }
+
+  #symbol-div {
+    margin-top: 3vw;
+    margin-left: 5vw;
+  }
+
+  /* types of chinese medicine pics and titles */
+      figure {
+        float:left;
+        margin: 4.3vw;
+      }
+
+      figcaption {
+        text-align: center;
+      }
+
+  .symbol-pics {
+    height: 11.5em;
+    width: 11.5em;
   }
 
   #part2 {
-    background-color: lightgreen;
-    height:470px;
+    // background-color: lightgreen;
+    width:80vw;
+    left:10vw;
+    height:52.5vw;
     clear:both;
     position: relative;
-    top: 40px;
+    top: 6vw;
+    opacity: 0;
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px solid black;
+    border-radius: 9px;
   }
 
   #pain-list-intro{
     position: relative;
-    right: 18px;
-    // text-align: center;
+    text-align: center;
+    left:2.3vw;
+    bottom: 3vw;
   }
 
   #pain-list {
-    float:right;
     position: relative;
-    top: 20px;
+    left: 14vw;
   }
 
   #pics-div {
     float:right;
     clear:both;
+    position: relative;
+    right:19vw;
+    top: 6.3vw;
+    margin-top: 5.4vw;
   }
 
 
   .pain-pics {
     position: relative;
-    height:110px;
-    width:110px;
+    height: 8.8vw;
+    width: 8.8vw;
   }
 
   #part3 {
     clear:both;
     position: relative;
-    top:80px;
-    height:200px;
+    top: 7vw;
+    height: 9.5vw;
+    font-size: 2vw;
     background-color: lightgreen;
     text-align: center;
+    opacity: 0;
+    border-radius: 15px;
+    margin-bottom: 2vw;
+    width:90vw;
+    left: 5vw;
+    margin-top: 3.2vw;
   }
+
+  #part3-p {
+    position: relative;
+    top: 2vw;
+  }
+
 }

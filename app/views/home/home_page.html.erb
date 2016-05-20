@@ -1,6 +1,12 @@
+<p id="portrait-notice"> This site not currently available on mobile.
+Please use a wider screen to view site. Alternatively, you may reach Dr. Pedro
+directly by calling (727)667-1028 </p>
+
+<hr />
 <h2 id="main-heading"> I am Dr. Pedro Cordovez, DOM. <br />
   I provide drug-free pain relief in the Clearwater Area!
 </h2>
+<hr />
 
 <div id="part1">
   <%= image_tag "drpedro.jpg", :id => "drpedro" %>
@@ -17,6 +23,37 @@
   </p>
 </div>
 
+<div id="symbol-div">
+  <figure>
+    <%= image_tag "acupuncture.jpg", :class => "symbol-pics", :id => "acupuncture" %>
+    <figcaption>
+      Acupuncture
+    </figcaption>
+  </figure>
+
+  <figure>
+    <%= image_tag "herbalism.jpg", :class => "symbol-pics", :id => "herbalism" %>
+    <figcaption>
+      Herbalism
+    </figcaption>
+  </figure>
+
+  <figure>
+    <%= image_tag "body_manipulation.jpg", :class => "symbol-pics", :id => "body-manipulation" %>
+    <figcaption>
+      Body Manipulation
+    </figcaption>
+  </figure>
+
+  <figure>
+    <%= image_tag "nutrition.jpg", :class => "symbol-pics", :id => "nutrition" %>
+    <figcaption>
+      Nutrition
+    </figcaption>
+  </figure>
+
+</div>
+
 <div id="part2">
   <div id="pics-div">
   <%= image_tag "headache.jpeg", :class => "pain-pics" %> <br />
@@ -25,9 +62,11 @@
   <%= image_tag "backpain.jpeg", :class => "pain-pics" %> <br />
   </div>
 
+  <br /> <br /> <br />
+
+   <h4 id="pain-list-intro">These are the types of body-pain that I work to alleviate. <br /> <br />
+    Do any of these apply to you? </h4>
   <ul id="pain-list">
-   <p id="pain-list-intro">These are the types of body-pain that I work to alleviate. <br />
-    Do any of these apply to you? </p>
    <li> Headache </li>
    <li> Earache </li>
    <li> Neck pain </li>
@@ -45,15 +84,17 @@
    <li> Fibromyalgia </li>
    <li> Finger pain </li>
    <li> Toe Pain </li>
-   <li> Sudden facial deviation or unilateral face paralysis </li>
+   <li> Sudden facial deviation </li>
+   <li> Unilateral facial paralysis </li>
  </ul>
 </div>
 
 <div id="part3">
-   <p> There is no need to live with that pain any longer! Call me now for a consultation.
+   <p id="part3-p"> There is no need to live with that pain any longer! Call me now for a consultation.
      <br />
      I am happy to answer any questions you may have. (727)667-1028
      <br />
-     You can also email me at pedro@cordovezwinwinwin.com
+     You can also email me at
+     <a href="mailto:pedro@cordovezwinwinwin.com?Subject=Consultation%20request">pedro@cordovezwinwinwin.com</a>
    </p>
 </div>
