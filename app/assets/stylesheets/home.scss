@@ -7,7 +7,7 @@
 }
 
 /* portrait */
-@media (orientation: portrait) {
+@media (max-width:916px) {
   ul, figure, li, p:not(#portrait-notice), h2,h4, img {
     display: none;
   }
@@ -15,7 +15,7 @@
 
 
 /* larger screens */
-@media (min-width: 600px) and (orientation: landscape) {
+@media (min-width: 917px) {
 
   #portrait-notice {
     display:none;
@@ -60,13 +60,13 @@
 
   #symbol-div {
     margin-top: 3vw;
-    margin-left: 5vw;
+    margin-left: 3vw;
   }
 
   /* types of chinese medicine pics and titles */
       figure {
         float:left;
-        margin: 4.3vw;
+        margin: 4.5vw;
       }
 
       figcaption {
@@ -74,8 +74,8 @@
       }
 
   .symbol-pics {
-    height: 11.5em;
-    width: 11.5em;
+    height: 14.25vw;
+    width: 14.25vw;
   }
 
   #part2 {
