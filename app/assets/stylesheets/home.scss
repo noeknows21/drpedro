@@ -9,11 +9,6 @@
 /* small - medium screens */
 @media (max-width:916px) {
 
-
-  #portrait-notice {
-    display:none;
-  }
-
   h2, h4 {
     font-size: 1.3em;
   }
@@ -148,10 +143,6 @@
 
 /* larger screens */
 @media (min-width: 917px) {
-
-  #portrait-notice {
-    display:none;
-  }
 
   h2 {
     font-size: 2.9vw;
