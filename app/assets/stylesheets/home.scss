@@ -6,12 +6,144 @@
   font-family:"Courier New", Courier, monospace !important;
 }
 
-/* portrait */
+/* small - medium screens */
 @media (max-width:916px) {
-  ul, figure, li, p:not(#portrait-notice), h2,h4, img {
-    display: none;
+
+
+  #portrait-notice {
+    display:none;
   }
+
+  h2, h4 {
+    font-size: 1.3em;
+  }
+
+  p, li {
+    font-size: 1em;
+  }
+
+
+
+  /* picture */
+  #drpedro {
+    border-radius: 5px;
+    float:left;
+    height: 10em;
+    width: 8em;
+  }
+
+  #main-heading {
+    text-align: center;
+  }
+
+  /* intro paragraph */
+  #intro {
+    width: 85vw;
+    position: relative;
+    left: 4.25vw;
+    top: 1.5vw;
+  }
+
+  /*div for drpedro pic and intro paragraph */
+  #part1 {
+    height: 35em !important;
+    opacity: 0;
+    border-bottom: 5px solid black;
+    position: relative;
+    top: 1vw;
+  }
+
+  #symbol-div {
+    margin-top: 3vw;
+    margin-left: 3vw;
+  }
+
+  /* types of chinese medicine pics and titles */
+      figure {
+        float:left;
+        margin: 4.5vw;
+        margin-right:40vw;
+      }
+
+      figcaption {
+        //
+      }
+
+  .symbol-pics {
+    height: 8em;
+    width: 8em;
+  }
+
+  #part2 {
+    // background-color: lightgreen;
+    width:90vw;
+    left:5vw;
+    height:50em;
+    clear:both;
+    position: relative;
+    top: 6vw;
+    opacity: 0;
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px solid black;
+    border-radius: 9px;
+  }
+
+  #pain-list-intro{
+    position: relative;
+    text-align: center;
+    // left;
+    bottom: 3vw;
+  }
+
+  #pain-list {
+    position: relative;
+    // left: 14vw;
+  }
+
+  #pics-div {
+    // clear:both;
+    position: relative;
+    margin-bottom: 1.5em;
+    width:60vw;
+    text-align: center;
+    margin: auto;
+  }
+
+
+  .pain-pics {
+    margin: auto;
+    position: relative;
+    float:left;
+    height: 5em;
+    width: 4em;
+  }
+
+  #part3 {
+    clear:both;
+    position: relative;
+    top: 7vw;
+    height: 12em;
+    font-size: 0.9em;
+    background-color: lightgreen;
+    text-align: center;
+    opacity: 0;
+    border-radius: 15px;
+    margin-bottom: 2vw;
+    width:90vw;
+    left: 5vw;
+    margin-top: 2em;
+  }
+
+  #part3-p {
+    position: relative;
+    top: 2.2em;
+  }
+
+
+
 }
+
+
 
 
 /* larger screens */
@@ -139,6 +271,10 @@
   #part3-p {
     position: relative;
     top: 2vw;
+  }
+
+  #contact-line1, #contact-line2 {
+    display: block;
   }
 
 }
