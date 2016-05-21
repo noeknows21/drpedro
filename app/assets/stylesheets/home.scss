@@ -56,13 +56,15 @@
   #symbol-div {
     margin-top: 3vw;
     margin-left: 3vw;
+    text-align: center;
+    display: block;
   }
 
   /* types of chinese medicine pics and titles */
       figure {
-        float:left;
-        margin: 4.5vw;
-        margin-right:40vw;
+        // float:left;
+        margin: 5.5vw;
+        display: block;
       }
 
       figcaption {
@@ -138,8 +140,6 @@
     position: relative;
     top: 2.2em;
   }
-
-
 
 }
 
