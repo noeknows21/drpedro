@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 * {
-  font-family:"Courier New", Courier, monospace !important;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif !important;
 }
 
 /* small - medium screens */
@@ -162,6 +162,7 @@
 
   #main-heading {
     text-align: center;
+    clear:both;
   }
 
   /* intro paragraph */
@@ -247,7 +248,7 @@
     clear:both;
     position: relative;
     top: 7vw;
-    height: 9.5vw;
+    height: 37vw;
     font-size: 2vw;
     background-color: lightgreen;
     text-align: center;
@@ -259,13 +260,19 @@
     margin-top: 3.2vw;
   }
 
-  #part3-p {
-    position: relative;
-    top: 2vw;
+
+  #contact1 {
+    width:30vw;
+    float:left;
   }
 
-  #contact-line1, #contact-line2 {
-    display: block;
+  #contact2 {
+    float:right;
+    width:30vw;
+  }
+
+  #part3-firstp {
+    padding-top: 3vw;
   }
 
 }

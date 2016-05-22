@@ -1,19 +1,67 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">     </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <p class="navbar-text"> <a href="https://www.google.com/maps/place/701+Cleveland+St,+Clearwater,+FL+33755/@27.965343,-82.7989058,17z/data=!3m1!4b1!4m5!3m4!1s0x88c2f0e0d61e2ca3:0xfa62c6012d942316!8m2!3d27.9653383!4d-82.7967171" target="_blank">
+         701 Cleveland St.
+        Clearwater FL. 33755  </a> </p>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <p class="navbar-text"> <a href="tel:17276671028"> Phone: +1(727)667-1028 </a>  </p>
+         <!-- <a href="mailto:pedro@cordovezwinwinwin.com?Subject=Consultation%20request">
+           pedro@cordovezwinwinwin.com
+         </a> -->
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<!--
+<div id="contact1">
+701 Cleveland St. <br/>
+Clearwater FL. 33755
+</div>
+<div id="contact2">
+  pedro@cordovezwinwinwin.com <br/>
+  1+727-667-1028
+</div> -->
 
 <hr />
-<h2 id="main-heading"> I am Dr. Pedro Cordovez, DOM. <br />
-  I provide drug-free pain relief in the Clearwater Area!
-</h2>
+<div id="main-heading">
+  <h2>
+    Dr. Pedro Cordovez, DOM
+  </h2>
+  <h3>
+  Providing effective, drug-free, pain-relieving
+  treatments in Clearwater, Florida
+  </h3>
+</div>
 <hr />
 
 <div id="part1">
   <%= image_tag "drpedro.jpg", :id => "drpedro" %>
 
   <p id="intro"> First things first, what is a DOM? Well, DOM stands for Doctor of Oriental
-     Medicine. I practice Chinese Medicine which has been recognized by the
+     Medicine. Dr. Pedro Cordovez practices Chinese Medicine which has been recognized by the
      National Institute of Health (NIH) to be effective in the treatment of a
-     wide variety of medical problems. I specifically specialize in
-     relieving body-pain and I do so with a drug-free approach. Depending on
-     your particular case, I will use one or all of the following aspects of
+     wide variety of medical problems. Dr. Pedro Cordovez specializes in
+     relieving body pain and does with a drug-free approach. Depending on
+     your particular case, he will use one or all of the following aspects of
      Chinese Medicine to help you: Accupuncture, Herbalism, Therapeutic Body
      Manipulation and Nutrition. Come experience true pain relief with a system of
      medicine that has proven to be effective for over 5,000 years.
@@ -22,30 +70,30 @@
 
 <div id="symbol-div">
   <figure>
-    <%= image_tag "acupuncture.jpg", :class => "symbol-pics", :id => "acupuncture" %>
+    <%= image_tag "friendly_acupunc.jpg", :class => "symbol-pics", :id => "acupuncture" %>
     <figcaption>
-      Acupuncture
+      Friendly Acupuncture
     </figcaption>
   </figure>
 
   <figure id="herb-figure">
     <%= image_tag "herbalism.jpg", :class => "symbol-pics", :id => "herbalism" %>
     <figcaption>
-      Herbalism
+      Nutraceutical Herbalism
     </figcaption>
   </figure>
 
   <figure>
     <%= image_tag "body_manipulation.jpg", :class => "symbol-pics", :id => "body-manipulation" %>
     <figcaption>
-      Body Manipulation
+      Therapeutic Manipulation
     </figcaption>
   </figure>
 
   <figure>
-    <%= image_tag "nutrition.jpg", :class => "symbol-pics", :id => "nutrition" %>
+    <%= image_tag "veggies4.jpg", :class => "symbol-pics", :id => "nutrition" %>
     <figcaption>
-      Nutrition
+      Tailored Nutrition
     </figcaption>
   </figure>
 
@@ -61,44 +109,53 @@
 
   <br /> <br /> <br />
 
-   <h4 id="pain-list-intro">These are the types of body-pain that I work to alleviate. <br /> <br />
+   <h4 id="pain-list-intro">These are the types of body-pain that Dr. Cordovez works
+      to eleminate <br /> <br />
     Do any of these apply to you? </h4>
   <ul id="pain-list">
+
    <li> Headache </li>
-   <li> Earache </li>
+   <li> Sudden facial deviation </li>
+   <li> Unilateral facial paralysis </li>
    <li> Neck pain </li>
+   <li> Earache </li>
+
    <li> Frozen Shoulder </li>
    <li> Shoulder Pain </li>
+
    <li> Upper back pain/tension </li>
    <li> Mid back pain </li>
    <li> Lower back pain </li>
+
    <li> Elbow pain </li>
    <li> Tennis Elbow </li>
    <li> Arm pain </li>
    <li> Wrist Pain </li>
    <li> Hands too weak to grasp objects </li>
-   <li> Tired feet </li>
-   <li> Fibromyalgia </li>
    <li> Finger pain </li>
+   <li> Tired feet </li>
    <li> Toe Pain </li>
-   <li> Sudden facial deviation </li>
-   <li> Unilateral facial paralysis </li>
+   <li> Fibromyalgia </li>
+
  </ul>
 </div>
 
 <div id="part3">
-   <p id="part3-p">
-     <span id="contact-line1">
-       There is no need to live with that pain any longer! Call me now for a consultation.
-     </span>
-     <span id="contact-line2">
-        I am happy to answer any questions you may have. <a href="tel:7276671028"> (727)667-1028 </a>
-     </span>
-     <span id="contact-line3">
-       You can also email me at
-       <a href="mailto:pedro@cordovezwinwinwin.com?Subject=Consultation%20request">
-         pedro@cordovezwinwinwin.com
-       </a>
-     </span>
-   </p>
+  <p id="part3-firstp">
+  After years of direct observation and international practice, Dr. Cordovez has
+  put together a holistic approach far beyond the
+  current Western and Oriental Medical viewpoints.  There are other key factors
+  that Dr. Cordovez considers in his practice for your benefit. If appropritae,
+  Dr. Cordovez will route you to the proper channels to handle your specific situation.
+  </p>
+  <p>
+    The 7 factors that have direct effect on your total wellness are as follows:
+  </p>
+  <p>Environmental Influences</p>
+  <p>Breathing Patterns</p>
+  <p>Recreational Habits</p>
+  <p> Resting and Sleeping Habits</p>
+  <p>Mental and Spiritual Activities</p>
+  <p>Workout Patterns</p>
+  <p>Eating &amp; Drinking Habits</p>
 </div>
