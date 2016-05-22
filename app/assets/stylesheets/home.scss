@@ -9,7 +9,15 @@
 /* small - medium screens */
 @media (max-width:916px) {
 
-  h2, h4 {
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  h4 {
     font-size: 1.3em;
   }
 
@@ -100,10 +108,12 @@
   #pics-div {
     // clear:both;
     position: relative;
-    margin-bottom: 1.5em;
-    width:60vw;
+    // margin: 1.5em;
+    width:17em;
     text-align: center;
     margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
 
@@ -119,8 +129,8 @@
     clear:both;
     position: relative;
     top: 7vw;
-    height: 12em;
-    font-size: 0.9em;
+    height: 35em;
+    // font-size: 0.9em;
     background-color: lightgreen;
     text-align: center;
     opacity: 0;
@@ -129,11 +139,12 @@
     width:90vw;
     left: 5vw;
     margin-top: 2em;
+    padding: 1em;
   }
 
-  #part3-p {
-    position: relative;
-    top: 2.2em;
+  #part3-firstp {
+    padding-top: 3vw;
+    top:1em;
   }
 
 }
