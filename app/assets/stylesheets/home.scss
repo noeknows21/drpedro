@@ -186,7 +186,7 @@
 
   /*div for drpedro pic and intro paragraph */
   #part1 {
-    height:0px;
+    height:0; //before animation
     opacity: 0;
     border-bottom: 5px solid black;
     position: relative;
@@ -259,16 +259,18 @@
     clear:both;
     position: relative;
     top: 7vw;
-    height: 37vw;
+    height: 35.5vw;
     font-size: 2vw;
     background-color: lightgreen;
     text-align: center;
     opacity: 0;
     border-radius: 15px;
-    margin-bottom: 2vw;
+    // margin-bottom: 2vw;
     width:90vw;
     left: 5vw;
     margin-top: 3.2vw;
+    padding-left:2vw;
+    padding-right: 2vw;
   }
 
 
@@ -284,6 +286,12 @@
 
   #part3-firstp {
     padding-top: 3vw;
+  }
+
+  #bottom-separator {
+    position: relative;
+    top:7vw;
+    height: 3.5vw;
   }
 
 }

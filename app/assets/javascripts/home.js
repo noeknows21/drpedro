@@ -3,7 +3,7 @@ function ready() {
 
   $( "#part1" ).animate({
     opacity: 1,
-    height:250,
+    height: "19.65vw",
   }, 1000 );
 
   $( "#part2" ).animate({
