@@ -147,6 +147,10 @@
     top:1em;
   }
 
+    #promo-separator {
+      display: none;
+    }
+
 }
 
 
@@ -292,6 +296,10 @@
     position: relative;
     top:7vw;
     height: 3.5vw;
+  }
+
+  #promo-separator {
+    visibility: hidden;
   }
 
 }
