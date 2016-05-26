@@ -96,7 +96,7 @@
   #pain-list-intro{
     position: relative;
     text-align: center;
-    // left;
+    font-size: 1.1em;
     bottom: 3vw;
   }
 
@@ -149,6 +149,11 @@
 
     #promo-separator {
       display: none;
+    }
+
+    #promo-link {
+      position: relative;
+      top:0.75em;
     }
 
 }
