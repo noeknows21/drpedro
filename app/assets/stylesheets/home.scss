@@ -80,7 +80,6 @@
   }
 
   #part2 {
-    // background-color: lightgreen;
     width:90vw;
     left:5vw;
     height:50em;
@@ -131,7 +130,7 @@
     top: 7vw;
     height: 35em;
     // font-size: 0.9em;
-    background-color: lightgreen;
+    background-color: #4da6ff;
     text-align: center;
     opacity: 0;
     border-radius: 15px;
@@ -223,7 +222,6 @@
   }
 
   #part2 {
-    // background-color: lightgreen;
     width:80vw;
     left:10vw;
     height:52.5vw;
@@ -270,7 +268,7 @@
     top: 7vw;
     height: 35.5vw;
     font-size: 2vw;
-    background-color: lightgreen;
+    background-color: #4da6ff;
     text-align: center;
     opacity: 0;
     border-radius: 15px;
@@ -303,8 +301,13 @@
     height: 3.5vw;
   }
 
-  #promo-separator {
-    visibility: hidden;
+  // #promo-separator {
+  //   visibility: hidden;
+  // }
+
+  #promo-link {
+    position: absolute;
+    left: 47vw;
   }
 
 }
